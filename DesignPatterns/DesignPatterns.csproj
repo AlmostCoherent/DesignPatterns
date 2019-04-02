@@ -43,11 +43,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChainOfResponsibility\IChain.cs" />
+    <Compile Include="ChainOfResponsibility\RemoveAllTheBs.cs" />
+    <Compile Include="ChainOfResponsibility\RemoveAllTheCs.cs" />
+    <Compile Include="FactoryPattern\Factory.cs" />
+    <Compile Include="FactoryPattern\FactoryReturnDefault.cs" />
+    <Compile Include="FactoryPattern\FactoryReturnFirst.cs" />
+    <Compile Include="FactoryPattern\FactoryReturnSecond.cs" />
+    <Compile Include="FactoryPattern\FactoryReturnThird.cs" />
+    <Compile Include="FactoryPattern\IFactoryReturn.cs" />
+    <Compile Include="FactoryPattern\ReturnType.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

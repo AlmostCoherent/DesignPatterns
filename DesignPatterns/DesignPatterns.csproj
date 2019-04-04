@@ -43,9 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BuilderPattern\Builder.cs" />
     <Compile Include="ChainOfResponsibility\IChain.cs" />
     <Compile Include="ChainOfResponsibility\RemoveAllTheBs.cs" />
     <Compile Include="ChainOfResponsibility\RemoveAllTheCs.cs" />
+    <Compile Include="CompositePattern\Composite.cs" />
+    <Compile Include="CompositePattern\IComposite.cs" />
     <Compile Include="FactoryPattern\Factory.cs" />
     <Compile Include="FactoryPattern\FactoryReturnDefault.cs" />
     <Compile Include="FactoryPattern\FactoryReturnFirst.cs" />

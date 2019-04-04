@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.BuilderPattern
 {
-	public class Builder
-	{
-	}
+    interface IItem
+    {
+        string Name();
+        float Price();
+        IPacking Packing();
+    }
 }

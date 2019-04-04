@@ -43,7 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BuilderPattern\Builder.cs" />
+    <Compile Include="BuilderPattern\Burger.cs" />
+    <Compile Include="BuilderPattern\ColdDrink.cs" />
+    <Compile Include="BuilderPattern\DrinkBottle.cs" />
+    <Compile Include="BuilderPattern\IItem.cs" />
+    <Compile Include="BuilderPattern\IPacking.cs" />
+    <Compile Include="BuilderPattern\MealWrapper.cs" />
     <Compile Include="ChainOfResponsibility\IChain.cs" />
     <Compile Include="ChainOfResponsibility\RemoveAllTheBs.cs" />
     <Compile Include="ChainOfResponsibility\RemoveAllTheCs.cs" />

@@ -43,12 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BuilderPattern\Burger.cs" />
-    <Compile Include="BuilderPattern\ColdDrink.cs" />
-    <Compile Include="BuilderPattern\DrinkBottle.cs" />
-    <Compile Include="BuilderPattern\IItem.cs" />
-    <Compile Include="BuilderPattern\IPacking.cs" />
-    <Compile Include="BuilderPattern\MealWrapper.cs" />
+    <Compile Include="BuilderPattern\Products\Burgers\Burger.cs" />
+    <Compile Include="BuilderPattern\Products\Drinks\ColdDrink.cs" />
+    <Compile Include="BuilderPattern\Packaging\DrinkBottle.cs" />
+    <Compile Include="BuilderPattern\Products\IItem.cs" />
+    <Compile Include="BuilderPattern\Packaging\IPacking.cs" />
+    <Compile Include="BuilderPattern\Packaging\MealWrapper.cs" />
     <Compile Include="ChainOfResponsibility\IChain.cs" />
     <Compile Include="ChainOfResponsibility\RemoveAllTheBs.cs" />
     <Compile Include="ChainOfResponsibility\RemoveAllTheCs.cs" />
@@ -61,6 +61,10 @@
     <Compile Include="FactoryPattern\FactoryReturnThird.cs" />
     <Compile Include="FactoryPattern\IFactoryReturn.cs" />
     <Compile Include="FactoryPattern\ReturnType.cs" />
+    <Compile Include="ObserverPattern\ConcreteObserver.cs" />
+    <Compile Include="ObserverPattern\ConcreteSubject.cs" />
+    <Compile Include="ObserverPattern\Observer.cs" />
+    <Compile Include="ObserverPattern\Subject.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

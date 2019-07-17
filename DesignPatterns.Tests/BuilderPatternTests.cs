@@ -8,7 +8,7 @@ namespace DesignPatterns.Tests
 		[Fact]
 		public void CheckBuilder()
 		{
-			Builder builder = new Builder();
+			//Builder builder = new Builder();
 
 			Assert.False(false);
 		}

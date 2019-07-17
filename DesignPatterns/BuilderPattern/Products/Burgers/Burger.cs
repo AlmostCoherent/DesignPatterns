@@ -1,10 +1,11 @@
-﻿using System;
+﻿using DesignPatterns.BuilderPattern.Packaging;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPatterns.BuilderPattern
+namespace DesignPatterns.BuilderPattern.Products.Burgers
 {
     public abstract class Burger : IItem
     {

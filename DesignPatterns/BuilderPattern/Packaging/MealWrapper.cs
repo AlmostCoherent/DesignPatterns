@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPatterns.BuilderPattern
+namespace DesignPatterns.BuilderPattern.Packaging
 {
-    public class DrinkBottle : IPacking
+    public class MealWrapper : IPacking
     {
         public string Pack()
         {
-            return "Bottle";
+            return "Wrapper";
         }
     }
 }

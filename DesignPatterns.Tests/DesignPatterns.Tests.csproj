@@ -59,6 +59,7 @@
   <ItemGroup>
     <Compile Include="BuilderPatternTests.cs" />
     <Compile Include="ChainOfCommandTests.cs" />
+    <Compile Include="MediatorPatternTests.cs" />
     <Compile Include="CompositePatternTests.cs" />
     <Compile Include="FactoryPatternTests.cs" />
     <Compile Include="ObserverPatternTests.cs" />

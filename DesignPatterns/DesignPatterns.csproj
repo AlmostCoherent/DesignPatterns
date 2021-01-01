@@ -43,17 +43,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BuilderPattern\MealDirector.cs" />
     <Compile Include="BuilderPattern\Products\Burgers\Burger.cs" />
+    <Compile Include="BuilderPattern\Products\Burgers\CheeseBurger.cs" />
+    <Compile Include="BuilderPattern\Products\Drinks\Coke.cs" />
     <Compile Include="BuilderPattern\Products\Drinks\ColdDrink.cs" />
     <Compile Include="BuilderPattern\Packaging\DrinkBottle.cs" />
+    <Compile Include="BuilderPattern\Products\Drinks\Fanta.cs" />
     <Compile Include="BuilderPattern\Products\IItem.cs" />
     <Compile Include="BuilderPattern\Packaging\IPacking.cs" />
     <Compile Include="BuilderPattern\Packaging\MealWrapper.cs" />
+    <Compile Include="BuilderPattern\Products\Meals\AbstractMeal.cs" />
+    <Compile Include="BuilderPattern\Products\Meals\CheeseBurgerMeal.cs" />
+    <Compile Include="BuilderPattern\Products\Meals\Meal.cs" />
     <Compile Include="ChainOfResponsibility\IChain.cs" />
     <Compile Include="ChainOfResponsibility\RemoveAllTheBs.cs" />
     <Compile Include="ChainOfResponsibility\RemoveAllTheCs.cs" />
+    <Compile Include="CompositePattern\AbstractComponent.cs" />
+    <Compile Include="CompositePattern\Client.cs" />
     <Compile Include="CompositePattern\Composite.cs" />
-    <Compile Include="CompositePattern\IComposite.cs" />
+    <Compile Include="CompositePattern\Leaf.cs" />
     <Compile Include="FactoryPattern\Factory.cs" />
     <Compile Include="FactoryPattern\FactoryReturnDefault.cs" />
     <Compile Include="FactoryPattern\FactoryReturnFirst.cs" />
@@ -61,6 +70,12 @@
     <Compile Include="FactoryPattern\FactoryReturnThird.cs" />
     <Compile Include="FactoryPattern\IFactoryReturn.cs" />
     <Compile Include="FactoryPattern\ReturnType.cs" />
+    <Compile Include="MediatorPattern\IMediator.cs" />
+    <Compile Include="MediatorPattern\IPerson.cs" />
+    <Compile Include="MediatorPattern\Mediator.cs" />
+    <Compile Include="MediatorPattern\Message.cs" />
+    <Compile Include="MediatorPattern\Person.cs" />
+    <Compile Include="MediatorPattern\Utility\Logging.cs" />
     <Compile Include="ObserverPattern\ConcreteObserver.cs" />
     <Compile Include="ObserverPattern\ConcreteSubject.cs" />
     <Compile Include="ObserverPattern\Observer.cs" />

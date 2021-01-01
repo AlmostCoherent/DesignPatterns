@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.BuilderPattern.Products
 {
-    interface IItem
+    public interface IItem
     {
         string Name();
         float Price();
